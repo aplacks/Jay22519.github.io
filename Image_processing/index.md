@@ -20,8 +20,8 @@
 #### Microsoft Azure Read API
 Computer Vision Read API is Azure's latest OCR technology that is optimised to extract printed or handwritten text, digits, currency symbols from text-heavy image files and PDF documents. The Read API supports 7 languages for printed text and only English language for handwritten text. The time for completion of the text extraction process depends on the volume of the text and the number of pages in the document. For this project we will extract handwritten text from image files only because the free tier subscription of the API is limited to process only first two pages of PDF document. 
 
-Input requirements
-Supported file formats: JPEG, PNG, BMP, PDF and TIFF
+Input requirements </b>
+Supported file formats: JPEG, PNG, BMP, PDF and TIFF </b>
 The file size must be less than 50 MB (4 MB for the free tier) and dimensions at least 50 x 50 pixels and at most 10000 x 10000 pixels.
 
 
