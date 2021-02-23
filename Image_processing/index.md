@@ -7,7 +7,7 @@
 | 1     | Rishikesh Rachchh | [BT18CSE091]  |
 | 2     | Harshal Sable     | [BT18CSEXXX]  |
 | 3     | Rishabh Agrawal   | [BT18CSEXXX]  |
-| 4     | Ashish Lakra      | [BT18CSEXXX]  |
+| 4     | Ashish Lakra      | [BT18CSE038]  |
 
 #### Our project of Automatic Answer checking is divided into 2 modules ->
 
@@ -16,6 +16,14 @@
 ##### 2) Using the text file generated to find how correcrt the given answer is
 
 <b> This page deals with the first module . The crux of it is to use ---. </b>
+
+#### Microsoft Azure Read API
+Computer Vision Read API is Azure's latest OCR technology that is optimised to extract printed or handwritten text, digits, currency symbols from text-heavy image files and PDF documents. The Read API supports 7 languages for printed text and only English language for handwritten text. The time for completion of the text extraction process depends on the volume of the text and the number of pages in the document. For this project we will extract handwritten text from image files only because the free tier subscription of the API is limited to process only first two pages of PDF document. 
+
+Input requirements
+Supported file formats: JPEG, PNG, BMP, PDF and TIFF
+The file size must be less than 50 MB (4 MB for the free tier) and dimensions at least 50 x 50 pixels and at most 10000 x 10000 pixels.
+
 
 <!-- Document similairty has many aspects . Other than capturing the syntactic similarity we also have to capture the semantic similarity and context and understand that whether
 2 given texts (though entirely differnet in words) are same or not .
